@@ -1,0 +1,936 @@
+*{
+	margin:auto;
+	width:100%;
+}
+.bag{
+	background-image:url(image/wallpaper.jpg);
+	width:100%;
+	height:600px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:20px;
+}
+
+.logo{
+      border:2px solid black;
+	  width:100%;
+      height:80px;
+	  background-color:3A4358;
+	  position:fixed;
+	  top:0;
+	  }
+	  
+	  .nav{
+	  width:50%;
+      height:70px;
+	  
+	  margin-right:20px;
+	  margin-top:20px;
+	  
+	  }
+	 
+	  
+	  .nav ul{
+		  display:flex;
+		  padding:10px;
+		 
+	  }
+	  .nav ul li{
+
+	  list-style:none;
+	   margin-right:-250px;
+	  }
+	  .nav ul li a{
+		  text-decoration:none;
+		  color:white;
+		  }
+		  
+		   .nav a:hover{
+		  
+		  color:orange;
+	  }
+	  .nav1{
+	  
+	  width:150px;
+      height:50px;
+	 
+	  margin-left:10px;
+	  margin-top:-60px;
+	  text-align:center;
+	   }
+	   .nav1 h1{ 
+	   padding-top:20px;
+	   color:white;
+	   margin-left:100px;
+	   font-size:25px;
+	   
+	   
+	   }
+	    .nav1{
+	  
+	  width:150px;
+      height:50px;
+	 
+	  margin-left:10px;
+	 padding-top:17px;
+	  text-align:center;
+	   }
+	   .nav1 h1{ 
+	   margin-top:-50px;
+	   color:white;
+	   margin-left:100px;
+	   font-size:35px;
+	   padding-top:10px;
+	   
+	   }	    .flower{
+	  
+	  width:100%;
+      height:500px;
+	 
+	  margin-top:0px;
+	   }
+	    .box{
+	  
+	  width:70%;
+      height:100px;
+	  
+	  margin-left:250px;
+	  margin-top:100;
+	   }.box
+	   h1{
+		   text-align:center;
+		   margin-top:70px;
+		   font-size:50px;
+		   color:white;
+		   padding-top:90px;
+	   }.box1{
+	  
+	  width:50%;
+      height:100px;
+	  
+	  margin-left:370px;
+	  margin-top:50;
+	   }
+	   
+	   .box1 p{
+		    text-align:center;
+		   margin-top:70px;
+		   font-size:23px;
+		   color:white;
+		   padding-top:10px;
+	   }
+	   .box2 button{
+		   width:170px;
+		   height:50px;
+		   margin-left:650px;
+		   border-radius:25px 25px;
+		   background-color:transparent;
+		   color:white;
+		   border:1px solid #E9D017;
+		   margin-top:-20px;
+		   
+	   }
+	  .box2 button:hover{
+		   background-color:FFC107;
+	   }
+	  
+
+	    .flower1{
+	  width:100%;
+      height:100px;
+	  background-color:F7F8FA;
+      margin-top:150px;	  
+	   }
+	   
+	   .flower1 div{
+		   filter:grayscale(100%);
+	   }
+	   .flower1 div:hover{
+		   filter:none;
+		   transition:all 0.5s ease-in-out;
+	   }
+
+	    .flower2 img{
+		  width:70px;
+		   height:35px;
+		   margin-left:130px;
+		   margin-top:30;
+		   
+	   } 
+	    .flower3{
+	  
+	  width:15%;
+      height:50px;
+	 
+	  margin-left:250px;
+	  margin-top:-55px;
+	   }
+	    .flower3 img{
+		   width:85px;
+		   height:35px;
+		   margin-top:10px;
+		   margin-left:60px;
+	   } 
+	    .flower4{
+
+	  width:15%;
+      height:50px;
+	 
+	  margin-left:480px;
+	  margin-top:-55px;
+	   }
+	    .flower4 img{
+		   width:85px;
+		   height:35px;
+		   margin-top:20px;
+		   margin-left:30px;
+	   } 
+	    .flower5{
+	  
+	  width:15%;
+      height:50px;
+	 
+	  margin-left:710px;
+	  margin-top:-55px;
+	   }
+	    .flower5 img{
+		   width:85px;
+		   height:35px;
+		   margin-top:30px;
+		   margin-left:-20px;
+	   } 
+	     .flower6{	
+	  width:15%;
+      height:50px;
+	  
+	  margin-left:920px;
+	  margin-top:-55px;
+	   }
+	    .flower6 img{
+		   width:85px;
+		   height:35px;
+		   margin-top:35px;
+		   margin-left:-40px;
+	   } 
+	    .flower7{
+	  width:15%;
+      height:50px;
+
+	  margin-left:1130px;
+	  margin-top:-55px;
+	   }
+	    .flower7 img{
+		   width:85px;
+		   height:35px;
+		   margin-top:30px;
+		   margin-left:-90px;
+	   }
+  .flower8{
+	  
+	  width:99%;
+      height:450px;
+	  background-color:white;
+	   }
+	   .flower9{
+	  
+	  width:45%;
+      height:350px;
+	  margin-left:100px;
+	  margin-top:50px;
+	   }
+	   .flower9 img{
+		   width:600px;
+		   height:350px;
+		   
+	   }	
+	    .flower10{
+	 
+	  width:35%;
+      height:150px;
+	 
+	  margin-left:730px;
+	  margin-top:-350px;
+	   }
+	   
+	      .flower10 p{
+			  font-size:20px;
+			  
+		  }.flower11{
+	  width:15%;
+      height:150px;
+
+	  margin-left:730px;
+	  margin-top:40px;
+	   }
+	   .flower11 p{
+		   margin-top:10px;
+				
+	   }
+	   .flower11 h3{
+		   margin-top:10px;
+	   }
+	   .point    iconify-icon{
+		   font-size:45px;
+		   color:8B97B3;
+	   }
+	   .flower12{
+	  
+	  width:15%;
+      height:150px;
+	 
+	  margin-left:1050px;
+	  margin-top:-155px;
+	   }
+	   .flower12 h3{ 
+	    margin-top:10px;
+	   }
+	   .flower12 p{ 
+	    margin-top:10px;
+		
+	   }
+	   
+	    .point1    iconify-icon{
+		   font-size:45px;
+		   color:8B97B3;
+	   }
+	   	   
+		   
+	 
+	  .container{
+		  width:98%;
+		  margin:auto;
+		  
+	  }
+	   .flower14{
+		   border:1px solid F7F8FA;
+		   background-color:F7F8FA;
+		   width:98%;
+		   height:100px;
+		   border:1px solid black;
+		   padding-top:20px;
+		   display:flex;
+	   }
+	 .flower15 {
+		 width:20%;
+		 height:100px;
+		 
+		 margin-left:50px;
+	 }
+	 .flower15 h1{
+		   font-size:30px;
+		 text-align:center;
+		   margin-top:30px;
+	   }
+	    .flower15 p{
+			   margin-top:-30px;
+			  text-align:center;
+			   font-size:21px;
+		   }
+	 .flower16 {
+		 width:20%;
+		 height:100px;
+		
+		 margin-left:150px;
+	 }
+	 
+	 .flower16 h1{
+			  text-align:center;
+			   font-size:35px;
+			   margin-top:30px;
+		   }
+		   .flower16 p{
+			  text-align:center;
+			   font-size:23px;
+			 
+		   }
+	 .flower17 {
+		 width:20%;
+		 height:100px;
+		 
+		 margin-left:150px;
+	 }
+	 
+	 .flower17 h1{
+			   margin-top:30px;
+			   font-size:35px;
+			   text-align:center;
+		   }
+		    .flower17 p{
+			 
+			   font-size:23px;
+			   text-align:center;
+		   }
+	 .flower18 {
+		 width:20%;
+		 height:100px;
+		 
+		 margin-left:150px;
+	 }
+	  
+			   .flower18 h1{
+			   margin-top:30px;
+			   font-size:35px;
+	           text-align:center;
+		   }
+		    .flower18 p{
+			   margin-top:0px;
+			   font-size:23px;
+			   text-align:center;
+		   }
+		  .container{
+		  width:99%;
+		  margin:auto;
+		  
+	  }
+	  		   
+	    .box3{
+	  border:2px solid AAC4E0;
+	  width:98%;
+      height:870px;
+	  background-color:#f7f7f7;
+	  margin-top:130px;
+		}
+	   .box4{
+	  width:25%;
+      height:70px;
+	 
+	  margin-top:30px;
+	  margin-left:500px;
+	  
+	   }
+	   .box4 h3{
+			font-size:30px;
+			text-align:center;
+			margin-top:30px;
+			padding-top:20px;
+		}
+		
+	     .box5{
+	  width:80%;
+      height:70px;
+	  
+	  margin-top:5px;
+	  margin-left:150px;
+		 }
+		 .page{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:30px;
+	  margin-left:150px;
+		 }
+		 .icon button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:47AEFF;
+			 
+			 
+            }
+			.icon button:hover{
+				background-color:47AEFF;
+				
+			}
+			.icon iconify-icon:hover{
+				color:white;
+			}
+			.pa h3{
+			 text-align:center;
+			 margin-top:65px;
+		 }
+		 .pa p{
+			 margin-top:10px;
+			 margin-left:25px;
+			 text-align:center;
+			 
+		 }
+		 .page1{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:-303px;
+	  margin-left:530px;
+		 }
+		  .icon1 button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon1 iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:FFA76E;
+			 
+			 
+            }
+			
+			.icon1 button:hover{
+				background-color:FDB484;
+				
+			}
+			.icon1 iconify-icon:hover{
+				color:white;
+			}
+			
+			.pa1 h3{
+			 text-align:center;
+			 margin-top:65px;
+		 }
+		 .pa1 p{
+			 margin-top:10px;
+			 margin-left:35px;
+			 
+		 }
+		 	 
+		  .page2{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:-303px;
+	  margin-left:900px;
+		 }
+		
+			 
+              .icon2 button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon2 iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:#E80368;
+			 
+			 
+            }
+			
+			
+			.icon2 button:hover{
+				background-color:E80368;
+				
+			}
+			.icon2 iconify-icon:hover{
+				color:white;
+			}
+			
+		 
+		  .pa2 h3{
+			 text-align:center;
+			 margin-top:60px;
+		 }
+		 .pa2 p{
+			 margin-top:10px;
+			 margin-left:30px;
+		 }
+		 
+		 	 .page3{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:30px;
+	  margin-left:150px;
+		 }
+		  .icon3 button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon3 iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:#FFBB2C;
+			 
+			 
+            }
+			
+			.icon3 button:hover{
+				background-color:FFD47A	;
+				
+			}
+			.icon3 iconify-icon:hover{
+				color:white;
+			}
+			
+		 .pa3 h3{
+			 text-align:center;
+			 margin-top:50px;
+		 }
+		 .pa3 p{
+			 margin-top:10px;
+			 margin-left:30px;
+		 }
+		 
+		  .page4{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:-300px;
+	  margin-left:530px;
+		 }
+		   .icon4 button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon4 iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:FFA76E;
+			 
+			 
+            }
+			
+			.icon4 button:hover{
+				background-color:FF5828;
+				
+			}
+			.icon4 iconify-icon:hover{
+				color:white;
+			}
+			
+		 
+		 .pa4 h3{
+			 text-align:center;
+			 margin-top:50px;
+		 }
+		 .pa4 p{
+			 margin-top:10px;
+			 margin-left:25px;
+		 }
+		 .page5{
+	  border:2px solid white;
+	  width:25%;
+      height:300px;
+	  background-color:white;
+	  margin-top:-300px;
+	  margin-left:900px;
+		 }
+		 
+		  .icon5 button{
+		 width:100px;
+		 height:100px;
+		 border-radius:70px;
+		 margin-top:50px;
+		 margin-left:120px;
+		 border:1px solid white;
+
+		 }
+		 
+		 .icon5 iconify-icon{
+			 font-size:60px;
+			 margin-left:13px;
+			 margin-top:7px;
+			 color:#11DBCF;
+			 
+			 
+            }
+			
+			.icon5 button:hover{
+				background-color:11DBCF;
+				
+			}
+			.icon5 iconify-icon:hover{
+				color:white;
+			}
+		 
+		 .pa5 h3{
+			 text-align:center;
+			 margin-top:50px;
+		 }
+		 .pa5 p{
+			 margin-top:10px;
+			 margin-left:25px;
+		 }
+		 
+		 .container{
+		  width:99%;
+		  margin:auto;
+		  
+	  }
+		   .apple{
+	 
+	  width:99%;
+      height:230px;
+	  background-color:414C64 ;
+	  margin-top:0px;
+	  border:1px solid 414C64;
+	  padding-top:20px;
+		 }
+		 .apple1{
+	 
+	  width:30%;
+      height:70px;
+	  background-color:414C64;
+	  margin-top:30px;
+	  margin-left:500px;
+		 }
+		 .apple1 h1{
+			 text-align:center;
+			 margin-top:30px;
+			 color:FFFFFF;
+			 padding-top:10px;
+			 font-size:30px;
+		 }
+		 .apple2{
+	  
+	  width:90%;
+      height:70px;
+	  background-color:414C64;
+	  margin-top:30px;
+		 }
+		 .apple2 p{
+			 text-align:center;
+			 font-size:20px;
+			 color:FFFFFF;
+			 padding-bottom:50px;
+		 }
+		 .apple2{
+	  
+	  width:90%;
+      height:70px;
+	  background-color:414C64;
+	  margin-top:30px;
+		 }
+		 .apple2 p{
+			 text-align:center;
+			 font-size:20px;
+			 color:FFFFFF;
+			 margin-top:-30px;
+			 
+		 }
+	   .apple3{
+	  width:20%;
+      height:55px;
+      margin-left:500px;
+	  margin-top:5px;
+		 }
+		 .apple3 button{
+			 width:135px;
+			 height:41px;
+			 border-radius:25px 25px;
+			 margin-left:130px;
+			 color:FFFFFF;
+			 background-color:414C64;
+			 border-color:EFCA1E;
+			 
+		 }
+		   .container{
+		  width:99%;
+		  margin:auto;
+		  
+	  }
+	   .apple4{
+	  border:2px solid black;
+	  width:99%;
+      height:650px;
+	  background-color:FFFFFF ;
+	  margin-top:00px;
+		 }
+		  .apple5{
+	  border:2px solid FFFFFF;
+	  width:28%;
+      height:100px;
+	  background-color:FFFFFF;
+	  margin-top:60px;
+	  
+		 }
+		 .apple5 h1{
+			 text-align:center;
+			 margin-top:30px;
+		 }
+	   		 .apple6{
+	  border:2px solid FFFFFF;
+	  width:90%;
+      height:130px;
+	  background-color:FFFFFF;
+	  margin-top:30px;
+	  margin-left:50px;
+		 }
+		 .apple6 p{
+			 text-align:center;
+			 margin-top:-50px;
+			 font-size:20px;
+			 color:AAC4E0;
+			 text-align:center;
+		 }
+	  
+	  .apple7{
+	  border:2px solid white;
+	  width:27%;
+      height:300px;
+	  background-color:FFFFFF  ;
+	  margin-top:30px;
+	  margin-left:50px;
+		 }
+		.apple7 img{
+		 
+		 width:90px;
+		 height:90px;
+		 border-radius:50px;
+		 margin-top:-15px;
+		 margin-left:20px;
+		 }
+		 
+		  
+		 .set {
+			 width:99%;
+			 height:150px;
+			 background-color:FAFAFC;
+			 border:1px solid:white;
+		 }
+		 
+		 .set p{
+			 margin-left:30px;
+		 }
+		 .set p iconify-icon{
+			 margin-left:-20px;
+			 color:FFE7A0;
+		 }
+		 .se iconify-icon{
+			 margin-left:170px;
+			 margin-top:-15px;
+			 color:FFE7A0;
+		 }
+				 .apple8{
+	  border:2px solid white;
+	  width:27%;
+      height:330px;
+	  background-color:FFFFFF  ;
+	  margin-top:-300px;
+	  margin-left:460px;
+		 }
+		 .apple8 img{
+		 
+		 width:90px;
+		 height:90px;
+		 border-radius:50px;
+		 margin-top:-5px;
+		 margin-left:20px;
+		 }
+		 
+		 
+		 .set1 {
+			 width:99%;
+			 height:150px;
+			 background-color:FAFAFC;
+			 border:1px solid:white;
+		 }
+		 
+		 .set1 p{
+			 margin-left:21px;
+		 }
+		 
+		 .set1 p iconify-icon{
+			 margin-left:-15px;
+			 color:FFE7A0;
+		 }
+		 .se1	 iconify-icon{
+			 margin-left:270px;
+			 margin-top:-15px;
+			 color:FFE7A0;
+		 }
+	  		 
+	  .apple9{
+	  border:2px solid white;
+	  width:27%;
+      height:300px;
+	  background-color:FFFFFF;
+	  margin-top:-330px;
+	  margin-left:890px;
+	 } 
+	 
+	 .set2 {
+			 width:100%;
+			 height:150px;
+			 background-color:FAFAFC;
+			 border:1px solid:white;
+		 }
+		 
+		 .set2 p{
+			 margin-left:30px;
+		 }
+		 
+		  .apple9 img{
+		 
+		 width:90px;
+		 height:90px;
+		 border-radius:50px;
+		 margin-top:-5px;
+		 margin-left:20px;
+		 }
+		 .set2 {
+			 width:99%;
+			 height:150px;
+			 background-color:FAFAFC;
+			 border:1px solid:white;
+		 }
+		 
+		 .set2 p{
+			 margin-left:21px;
+		 }
+		 
+		 .set2 p iconify-icon{
+			 margin-left:15px;
+			 color:FFE7A0;
+		 }
+		 .se2	 iconify-icon{
+			 margin-left:70px;
+			 margin-top:15px;
+			 color:FFE7A0;
+		 }
+	 
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
