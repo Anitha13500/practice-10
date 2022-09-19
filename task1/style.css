@@ -104,9 +104,11 @@ margin:auto;
 }
 .about hr {
 	width:17%;
+	height:0.2vh;
     margin-right:500px;
 	border-color:0078FF;
 	margin-top:-30px;
+	background-color:0078FF;
 }
 
 .para p{
@@ -140,13 +142,24 @@ font-size:25px;
   .html{
 	  width:100%;
 		height:60vh;
-		background-color:pink;
-		border:1px solid black;
+	
+	
 		
 	}
 	.html h3{
 		margin-left:15px;
 	}
+	.html h5{
+		margin-left:15px;
+		margin-top:10px;
+	}
+		.html progress {
+			width:99%;
+			height:5vh;
+			margin-top:-10px;
+		}
+		
+		
 	
 	.services{
 		height:143vh;
@@ -163,11 +176,14 @@ font-size:25px;
 	}
 	.servi p{
 		text-align:center;
-		font-size:20px;
+		font-size:17px;
+		margin-left:10px;
 	}
 	.servi hr{
 		width:3%;
+		height:0.3vh;
 	    border-color:0078FF;
+		background-color:0078FF;
 	
 	}
 	.webdes {
@@ -344,12 +360,28 @@ font-size:25px;
 		background-image:url("image/backgorund1.jpg");
 		background-size:cover;
 		border:1px solid black;
+		background-attachment:fixed;
+		position:relative;
+	}
+	.work::after{
+		content:"";
+		position:absolute;
+		opacity:0.7;
+		background-color:#0078ff;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+
+		
+		
 	}
 	.works	 {
 		width:100%;
 		height:50vh;
 		border:1px solid 065AB8;
-		background-color:red;
+		position:relative;
+		z-index:1;
 	    margin-top:43px;
 		display:flex;
 		
@@ -358,8 +390,6 @@ font-size:25px;
 	.workcompleated {
 		width:20%;
 		height:35vh;
-		border:1px solid black;
-		background-color:green;
 		margin-left:85px;
 		margin-top:50px;
 		text-align:center;
@@ -381,8 +411,6 @@ font-size:25px;
 	.years {
 		width:20%;
 		height:35vh;
-		border:1px solid black;
-		background-color:green;
 		margin-left:30px;
 		margin-top:50px;
 		text-align:center;
@@ -405,8 +433,7 @@ font-size:25px;
 	.total{
 		width:20%;
 		height:35vh;
-		border:1px solid black;
-		background-color:green;
+
 		margin-left:30px;
 		margin-top:50px;
 		text-align:center;
@@ -430,8 +457,6 @@ font-size:25px;
 		.award{
 		width:20%;
 		height:35vh;
-		border:1px solid black;
-		background-color:green;
 		margin-left:30px;
 		margin-top:50px;
 		text-align:center;
@@ -471,7 +496,9 @@ font-size:25px;
 	}
 	.protfolod hr{
 		width:3%;
+		height:0.5vh;
 		border-color:0078FF;
+		background-color:0078FF;
 	}
 	.lorem {
 		width:95%;
@@ -490,6 +517,7 @@ font-size:25px;
 	.lorem1 img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
 	}
 	.lorem1 span{
 		color:3B97FF;
@@ -505,8 +533,8 @@ font-size:25px;
 	}
 	.lorem1 iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:310px;	
 		color:3B97FF;
 		}
 	.loreda{
@@ -520,6 +548,9 @@ font-size:25px;
 	.loreda img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
+		
+		
 	}
 	.loreda span{
 		color:3B97FF;
@@ -535,8 +566,8 @@ font-size:25px;
 	}
 	.loreda iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:310px;	
 		color:3B97FF;
 		}
 		 
@@ -551,6 +582,7 @@ font-size:25px;
 	.mavrito img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
 	}
 	.mavrito span{
 		color:3B97FF;
@@ -566,8 +598,8 @@ font-size:25px;
 	}
 	.mavrito iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:310px;	
 		color:3B97FF;
 		}
 		 .bindo {
@@ -588,6 +620,7 @@ font-size:25px;
 	.bindo1 img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
 	}
 	.bindo1 span{
 		color:3B97FF;
@@ -603,8 +636,8 @@ font-size:25px;
 	}
 	.bindo1 iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:320px;	
 		color:3B97FF;
 		}
 	 .studio {
@@ -618,6 +651,7 @@ font-size:25px;
 	.studio img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
 	}
 	.studio span{
 		color:3B97FF;
@@ -633,8 +667,8 @@ font-size:25px;
 	}
 	.studio iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:320px;	
 		color:3B97FF;
 		}
 	 .studiobig{
@@ -648,6 +682,7 @@ font-size:25px;
 	.studiobig img{
 		width:100%;
 		height:41vh;
+		cursor:pointer;
 	}
 	.studiobig span{
 		color:3B97FF;
@@ -663,38 +698,58 @@ font-size:25px;
 	}
 	.studiobig iconify-icon{
 		font-size:50px;
-		margin-top:-70px;
-        margin-left:300px;	
+		margin-top:-50px;
+        margin-left:320px;	
 		color:3B97FF;
 		}
 		.marta {
 			width:100%;
 			height:90vh;
-			border:1px solid black;
+			border:1px solid #0078ff;;
 			background-image:url("image/background.jpg");
 			background-size:cover;
-			
+			background-attachment:fixed;
+			position:relative;
 		}
+		.marta::after{
+		content:"";
+		position:absolute;
+		opacity:0.7;
+		background-color:#0078ff;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		}
+
+		
 		.socrate img {
 			border-radius:50%;
 			margin-left:575px;
 			margin-top:100px;
+			position:relative;
+			z-index:1;
 		}
 		.socrate h3 {
 			text-align:center;
 			color:white;
 			font-size:30px;
+			position:relative;
+			z-index:1;
 		}
 		.socrate p {
 			text-align:center;
 			color:white;
 			font-size:20px;
+			position:relative;
+			z-index:1;
 		}
 		.blog {
 			width:100%;
 			height:120vh;
-			background-color:yellow;
-			border:1px solid black;
+			background-color:F5F5F5;
+			border:1px solid F5F5F5;
+			padding-top:10px;
 		}
 		.blog1 h1{
 			text-align:center;
@@ -708,43 +763,392 @@ font-size:25px;
 		}
 		.blog1 hr{
 			width:3%;
-		    height:0.1vh;
+		    height:0.2vh;
 			border-color:0078FF;
 			background-color:0078FF;
+			
 		}
 		.travel {
-			width:100%;
-			height:80vh;
-			background-color:green;
-			border:1px solid black;
+			width:85%;
+			height:85vh;
 			display:flex;
+			margin:auto;
 		}
 		
 		.abouttravel {
-			width:27%;
-			height:73vh;
-			border:1px solid black;
-			background-color:red;
+			width:32%;
+			height:79.1vh;
+			border:1px solid FFFFFF;
+			background-color:FFFFFF;
 			margin-top:20px;
-			margin-left:60px;
+		
+		
 		}
+		.abouttravel img{
+			width:100%;
+			height:45vh;
+			cursor:pointer;
+		}
+		.abouttravel button {
+			margin-left:135px;
+			width:25%;
+			height:vh;
+			margin-top:-13px;
+			border-color:0078FF;
+			background-color:0078FF;
+			color:white;
+			font-size:13px;
+		}
+	
+		.abouttravel h2 {
+			margin-left:15px;
+			cursor:pointer;
+			
+		}
+		.abouttravel h2:hover{
+			color:0078FF;
+		}
+		
+		.abouttravel p {
+			margin-left:15px;
+			font-size:17px;
+		}
+			.abou {
+			width:100%;
+			height:11vh;
+			border:1px solid  F7F7F7;
+			background-color:F7F7F7;
+			
+		}
+		.abou img {
+			width:13%;
+			height:8vh;
+			border-radius:50%;
+			margin-left:15px;
+			margin-top:10px;
+		}
+		.abou h5 {
+			margin-top:-30px;
+			margin-left:70px;
+			font-size:15px;
+		}
+		.abou iconify-icon {
+			font-size:25px;
+			margin-left:270px;
+			margin-top:-53px;
+			color:#4e4e4e;
+		}
+		.abou p {
+			margin-left:300px;
+			margin-top:-50px;
+		}
+			
+			
 		.abouttravel1 {
-			width:27%;
-			height:73vh;
-			border:1px solid black;
-			background-color:red;
+			width:32%;
+			height:79.2vh;
+			border:1px solid FFFFFF;
+			background-color:FFFFFF;
 			margin-top:20px;
-			margin-left:60px;
+			margin-left:20px;
 		}
+		
+		.abouttravel1 img{
+			width:100%;
+			height:45vh;
+			cursor:pointer;
+		}
+		.abouttravel1 button {
+			margin-left:141px;
+			width:25%;
+			height:3vh;
+			margin-top:-11px;
+			border-color:0078FF;
+			background-color:0078FF;
+			color:white;
+			font-size:11px;
+			
+		}
+	
+		.abouttravel1 h2 {
+			margin-left:15px;
+			cursor:pointer;
+			
+		}
+		.abouttravel1 h2:hover{
+			color:0078FF;
+		}
+		
+		.abouttravel1 p {
+			margin-left:15px;
+			font-size:17px;
+		}
+			.abou1 {
+			width:100%;
+			height:11vh;
+			border:2px solid  F7F7F7;
+			background-color:F7F7F7;
+			
+		}
+		.abou1 img {
+			width:13%;
+			height:8vh;
+			border-radius:50%;
+			margin-left:15px;
+			margin-top:10px;
+		}
+		.abou1 h5 {
+			margin-top:-30px;
+			margin-left:70px;
+			font-size:15px;
+		}
+		.abou1 iconify-icon {
+			font-size:25px;
+			margin-left:270px;
+			margin-top:-53px;
+			color:#4e4e4e;
+		}
+		.abou1 p {
+			margin-left:300px;
+			margin-top:-50px;
+		}
+			
+		
 		.abouttravel2 {
-			width:27%;
-			height:73vh;
-			border:1px solid black;
-			background-color:red;
+			width:32%;
+			height:79.2vh;
+			border:1px solid FFFFFF;
+			background-color:FFFFFF;
 			margin-top:20px;
-			margin-left:60px;
+			margin-left:20px;
+			
 		}
+		
+		.abouttravel2 img{
+			width:100%;
+			height:45vh;
+			cursor:pointer;
+		}
+		.abouttravel2 button {
+			margin-left:141px;
+			width:25%;
+			height:3vh;
+			margin-top:-11px;
+			border-color:0078FF;
+			background-color:0078FF;
+			color:white;
+			font-size:11px;
+			
+		}
+	
+		.abouttravel2 h2 {
+			margin-left:15px;
+			cursor:pointer;
+			
+		}
+		.abouttravel2 h2:hover{
+			color:0078FF;
+		}
+		
+		.abouttravel2 p {
+			margin-left:15px;
+			font-size:17px;
+		}
+			.abou2 {
+			width:100%;
+			height:11vh;
+			border:1px solid  F7F7F7;
+			background-color:F7F7F7;
+			
+		}
+		.abou2 img {
+			width:13%;
+			height:8vh;
+			border-radius:50%;
+			margin-left:15px;
+			margin-top:10px;
+		}
+		.abou2 h5 {
+			margin-top:-30px;
+			margin-left:70px;
+			font-size:15px;
+		}
+		.abou2 iconify-icon {
+			font-size:25px;
+			margin-left:270px;
+			margin-top:-53px;
+			color:#4e4e4e;
+		}
+		.abou2 p {
+			margin-left:300px;
+			margin-top:-50px;
+		} 
+		.sent {
+			width:100%;
+			height:110vh;
+			border:1px solid #0078ff;
+			background-image:url("image/background.jpg");
+			background:cover;
+			background-attachment:fixed;
+			position:relative;
+		}
+		.sent::after{
+		content:"";
+		position:absolute;
+		opacity:0.7;
+		background-color:#0078ff;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		}
+		.message {
+			width:87%;
+			height:85vh;
+			border:1px solid black;
+			background-color:white;
+			margin-left:90px;
+			margin-top:100px;
+			display:flex;
+			position:relative;
+			z-index:1;
+		}			
+		
+           .messageus {
+			width:45%;
+			height:85vh;
+			border:1px solid ffffff;
+			background-color:FFFFFF;
+			margin-left:50px;
+			}
+			.messageus h1 {
+				font-size:30px;
+				margin-left:30px;
+				margin-top:30px;
+			}
+			.messageus  hr{
+				width:17%;
+				height:0.2vh;
+				margin-left:30px;
+				margin-top:-20px;
+				border-color:0078FF;
+				background-color:0078FF;
+			}
+			.for input{
+				width:90%;
+				height:7vh;
+				border:1px solid black;
+				margin-top:20px;
+				margin-left:30px;
+			}
+				
+			.for textarea {
+				width:90%;
+				height:25vh;
+				border:1px solid black;
+				margin-top:20px;
+				margin-left:30px;
+			}
+			.for button {
+				width:30%;
+				height:7vh;
+				border-radius:30px;
+				margin-left:170px;
+				margin-top:20px;
+				background-color:3393FF;
+				color:white;
+				border-color:93ff;
+				cursor:pointer;
+			}
 		 
+			
+			
+			
+		.touch {
+			width:45%;
+			height:85vh;
+			background-color:white;
+			margin-left:15px;
+			
+			}
+			
+		.touch h1 {
+				font-size:30px;
+				margin-left:30px;
+				margin-top:30px;
+			}
+		.touch  hr{
+				width:17%;
+				height:0.2vh;
+				margin-left:30px;
+				margin-top:-20px;
+				border-color:0078FF;
+				background-color:0078FF;
+			}
+			.touch p{
+				font-size:20px;
+				margin-top:25px;
+			}
+			.touch1 iconify-icon{
+				font-size:20px;
+			    color: 4287FF;
+				margin-top:20px;
+			}
+			.touch1 p{
+				font-size:17px;
+				margin-top:-20px;
+				margin-left:35px;
+			}
+			.touch2 iconify-icon{
+				font-size:20px;
+			    color: 4287FF;	
+			}
+			.touch2 p{
+				font-size:17px;
+				margin-top:-20px;
+				margin-left:35px;
+			}
+			.facebook iconify-icon {
+				font-size:20px;
+				border:3px solid #0078FF;
+				border-radius:50%;
+				padding:10px;
+				cursor:pointer;
+			}
+			.facebook iconify-icon:hover {
+				color:white;
+				background-color:#0078FF;
+				border:3px solid #CDE1F8;
+			}
+				
+			.copyright {
+				width:100%;
+				height:15vh;
+				border:1px solid 0062D3;
+				background-color:0062D3;
+				padding:1px;
+			
+			}
+			.copyright p {
+				text-align:center;
+				color:white;
+				font-size:15px;
+				margin-top:30px;
+				
+			}
+			.copyright h5 {
+				text-align:center;
+				color:white;
+				font-size:15px;
+				margin-top:20px;
+				margin-top:-10px;
+				
+				
+			}
+			.copyright span{
+				cursor:pointer;
+			}
+			
 		
-		
+			
 	
