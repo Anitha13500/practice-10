@@ -4,18 +4,22 @@
 }
 .container{
 	background-image:url(image/wallpaper.jpg);
-	width:100%;
+	width:99%;
 	height:700px;
 	background-repeat:no-repeat;
 	background-size:cover;
+	border:2px solid red;
 }
 
 .logo{
       border:2px solid black;
-	  width:100%;
-      height:100px;
+	  width:99%;
+      height:80px;
 	  background-color:3A4358;
-	  }
+	  position:fixed;
+	  top:0;
+}
+	  
 	  .nav{
 	  width:50%;
       height:70px;
@@ -24,6 +28,8 @@
 	  margin-top:20px;
 	  
 	  }
+	 
+	  
 	  .nav ul{
 		  display:flex;
 		  padding:10px;
@@ -39,6 +45,11 @@
 		  color:white;
 		  }
 		  
+		   .nav a:hover{
+		  
+		  color:orange;
+	  }
+		  
 	   .nav1{
 	  
 	  width:150px;
@@ -52,6 +63,8 @@
 	   margin-top:-50px;
 	   color:white;
 	   margin-left:100px;
+	   font-size:35px;
+	   padding-top:10px;
 	   
 	   }
 		   
@@ -72,9 +85,10 @@
 	   }
 	   .box h1{
 		   text-align:center;
-		   margin-top:30px;
+		   margin-top:70px;
 		   font-size:50px;
 		   color:white;
+		   padding-top:90px;
 	   }
 	  .box1{
 	  
@@ -87,9 +101,10 @@
 	   
 	   .box1 p{
 		    text-align:center;
-		   margin-top:30px;
+		   margin-top:70px;
 		   font-size:23px;
 		   color:white;
+		   padding-top:10px;
 	   }
 		   
 	   
@@ -99,24 +114,34 @@
 		   height:50px;
 		   margin-left:650px;
 		   border-radius:25px 25px;
-		   background-color:363D4C;
-		   color:white;`
+		   background-color:transparent;
+		   color:white;
+		   border:1px solid #E9D017;
+		   margin-top:-20px;
+		   
 	   }
 	  .box2 button:hover{
-		   color:orange;
+		   background-color:FFC107;
+	   }
+	   .flower1 div{
+		   filter:grayscale(100%);
+	   }
+	   .flower1 div:hover{
+		   filter:none;
+		   transition:all 0.5s ease-in-out;
 	   }
 
 	    .flower1{
 	  width:100%;
-      height:150px;
+      height:100px;
 	  background-color:F7F8FA; 
 	   }
 	   
 	   .flower2 img{
-		   width:150px;
-		   height:100px;
-		   margin-left:20px;
-		   margin-top:20px;
+		   width:85px;
+		   height:35px;
+		   margin-left:130px;
+		   margin-top:30px;
 	   } 
 	   
 	 
@@ -129,10 +154,10 @@
 	  margin-top:-55px;
 	   }
 	    .flower3 img{
-		   width:140px;
-		   height:100px;
-		   margin-top:-45px;
-		   
+		   width:85px;
+		   height:35px;
+		   margin-top:10px;
+		   margin-left:60px;
 	   } 
 	    .flower4{
 
@@ -143,9 +168,10 @@
 	  margin-top:-55px;
 	   }
 	    .flower4 img{
-		   width:150px;
-		   height:100px;
-		   margin-top:-30px;
+		   width:85px;
+		   height:35px;
+		   margin-top:20px;
+		   margin-left:30px;
 	   } 
 	    .flower5{
 	  
@@ -156,9 +182,10 @@
 	  margin-top:-55px;
 	   }
 	    .flower5 img{
-		   width:150px;
-		   height:100px;
-		   margin-top:-20px;
+		   width:85px;
+		   height:35px;
+		   margin-top:30px;
+		   margin-left:-20px;
 	   } 
 	     .flower6{	
 	  width:15%;
@@ -168,9 +195,10 @@
 	  margin-top:-55px;
 	   }
 	    .flower6 img{
-		   width:150px;
-		   height:100px;
-		   margin-top:-15px;
+		   width:85px;
+		   height:35px;
+		   margin-top:35px;
+		   margin-left:-40px;
 	   } 
 	    .flower7{
 	  width:15%;
@@ -180,9 +208,10 @@
 	  margin-top:-55px;
 	   }
 	    .flower7 img{
-		   width:150px;
-		   height:100px;
-		   margin-top:-20px;
+		   width:85px;
+		   height:35px;
+		   margin-top:30px;
+		   margin-left:-90px;
 	   } 
 	     .flower8{
 	  border:2px solid black;
@@ -231,6 +260,10 @@
 	   .flower11 h3{
 		   margin-top:10px;
 	   }
+	   .point    iconify-icon{
+		   font-size:45px;
+		   color:8B97B3;
+	   }
 	   
 	   
 	   
@@ -247,6 +280,12 @@
 	   }
 	   .flower12 p{ 
 	    margin-top:10px;
+		
+	   }
+	   
+	    .point1    iconify-icon{
+		   font-size:45px;
+		   color:8B97B3;
 	   }
 
 	   .flower14{
@@ -256,6 +295,15 @@
 		   border:2px solid black;
 		   margin-top:20px;
 		   
+		   
+	   }
+	   .flower15{
+		   border:1px solid F7F8FA;
+		   background-color:F7F8FA;
+		   width:100%;
+		   height:150px;
+		   border:1px solid black;
+		   padding-top:20px;
 	   }
 	   .flower15 h1{
 		   font-size:30px;
@@ -322,6 +370,7 @@
 			font-size:30px;
 			text-align:center;
 			margin-top:10px;
+			padding-top:20px;
 		}
 	     .box5{
 	  width:80%;
@@ -614,9 +663,11 @@
 		  .apple{
 	 
 	  width:100%;
-      height:330px;
+      height:280px;
 	  background-color:414C64 ;
 	  margin-top:0px;
+	  border:1px solid 414C64;
+	  padding-top:20px;
 		 }
 		
 
@@ -633,6 +684,7 @@
 			 text-align:center;
 			 margin-top:30px;
 			 color:FFFFFF;
+			 padding-top:10px;
 		 }
 		 
 		  .apple2{
@@ -646,16 +698,17 @@
 			 text-align:center;
 			 font-size:20px;
 			 color:FFFFFF;
+			 padding-bottom:50px;
 		 }
 		 .apple3{
 	  width:20%;
       height:55px;
-      
-	  margin-top:30px;
+      margin-left:500px;
+	  margin-top:5px;
 		 }
 		 .apple3 button{
-			 width:130px;
-			 height:60px;
+			 width:135px;
+			 height:41px;
 			 border-radius:25px 25px;
 			 margin-left:130px;
 			 color:FFFFFF;
@@ -695,13 +748,14 @@
 			 margin-top: 50px;
 			 font-size:20px;
 			 color:AAC4E0;
+			 text-align:center;
 		 }
 		 
 		  .apple7{
-	  border:2px solid black;
+	  border:2px solid white;
 	  width:27%;
       height:300px;
-	  background-color:#C5CACA  ;
+	  background-color:FFFFFF  ;
 	  margin-top:30px;
 	  margin-left:50px;
 		 }
@@ -710,30 +764,41 @@
 		 width:90px;
 		 height:90px;
 		 border-radius:50px;
-		 margin-top:20px;
+		 margin-top:-15px;
+		 margin-left:20px;
 		 }
 		 
 		  
 		 .set {
 			 width:100%;
-			 height:105px;
+			 height:150px;
 			 background-color:FAFAFC;
 			 border:1px solid:white;
 		 }
 		 
 		 .set p{
-			 margin-left:10px;
+			 margin-left:30px;
 		 }
+		 .set p iconify-icon{
+			 margin-left:-20px;
+			 color:FFE7A0;
+		 }
+		 .se iconify-icon{
+			 margin-left:170px;
+			 margin-top:-15px;
+			 color:FFE7A0;
+		 }
+		
 		
 			
 			
 			
 			
 		 .apple8{
-	  border:2px solid black;
+	  border:2px solid white;
 	  width:29%;
       height:300px;
-	  background-color:#C5CACA  ;
+	  background-color:FFFFFF  ;
 	  margin-top:-300px;
 	  margin-left:460px;
 		 }
@@ -742,41 +807,52 @@
 		 width:90px;
 		 height:90px;
 		 border-radius:50px;
-		 margin-top:20px;
+		 margin-top:-5px;
+		 margin-left:20px;
 		 }
 		 
 		 
 		 .set1 {
 			 width:100%;
-			 height:105px;
+			 height:150px;
 			 background-color:FAFAFC;
 			 border:1px solid:white;
 		 }
 		 
 		 .set1 p{
-			 margin-left:10px;
+			 margin-left:21px;
+		 }
+		 
+		 .set1 p iconify-icon{
+			 margin-left:-15px;
+			 color:FFE7A0;
+		 }
+		 .se1	 iconify-icon{
+			 margin-left:210px;
+			 margin-top:-15px;
+			 color:FFE7A0;
 		 }
 		 
 			 
 			 
 		 .apple9{
-	  border:2px solid black;
+	  border:2px solid white;
 	  width:27%;
       height:300px;
-	  background-color:#C5CACA  ;
+	  background-color:FFFFFF;
 	  margin-top:-300px;
 	  margin-left:890px;
 	 } 
 	 
 	 .set2 {
 			 width:100%;
-			 height:105px;
+			 height:150px;
 			 background-color:FAFAFC;
 			 border:1px solid:white;
 		 }
 		 
 		 .set2 p{
-			 margin-left:10px;
+			 margin-left:30px;
 		 }
 		 
 		  .apple9 img{
@@ -784,67 +860,117 @@
 		 width:90px;
 		 height:90px;
 		 border-radius:50px;
-		 margin-top:20px;
+		 margin-top:-5px;
+		 margin-left:20px;
 		 }
 	 
+	 
+	  .set2 p iconify-icon{
+			 margin-left:-25px;
+			 color:FFE7A0;
+		 }
+		 .se2	 iconify-icon{
+			 margin-left:100px;
+			 margin-top:-15px;
+			 color:FFE7A0;
+		 }
 	 .note{
 	  border:2px solid black;
-	  width:100%;
+	  width:97%;
       height:1500px;
-	  background-color:#EE330D  ;
+	  background-color:white ;
 	  margin-top:40px;
 	  margin-left:0px;
+	
 	 } 
-	 .note1{border:2px solid green ;
+	 .note1{
 		width:20%;
 		height:50px;
 		margin-top:-1450px;
 		margin-left:520px;
 		margin-bottom:10px;
 	 }
+	 .note1 h1{
+		text-align:center;
+        padding-top:10px;	
+	 }		
+	 
+		 
 	 .note2{
-		 border:2px  ;
+		 
 		width:90%;
 		height:100px;
 		margin-top:50px;
 		margin-left:70px;
 		margin-bottom:50px;
-	 background-color:#EEEE0D;
+	 
 	 }
-	 .note3{border:2px solid green ;
-		width:5%;
-		height:20px;
-		margin-top:50px;
-		margin-left:450px;
-		background-color:#BB8FCE ;
+	 
+	 .note2 p{
+		 text-align:center;
+		 padding-bottom:50px;
+		 margin-left:30px;
+		 color:AAB3C7;
 	 }
-	 .note4{border:2px solid green ;
-		width:5%;
-		height:20px;
-		margin-top:-20px;
-		margin-left:550px;
-		background-color:#BB8FCE ;
+	 
+	 
+	 
+	 .note3 button{
+		 border-radius:10px 10px;
+		 width:70px;
+		 height:25px;
+		 margin-left:500px;
+		 border-color:FAFAFC;
 	 }
-	 .note5{border:2px solid green ;
-		width:5%;
-		height:20px;
-		margin-top:-20px;
-		margin-left:650px;
-		background-color:#BB8FCE ;
+		 .note3 button:hover{
+			background-color:FFC107;
+		 }			
+	 
+	 
+	 
+	 
+	 .note4 button{
+		 border-radius:10px 10px;
+		 width:70px;
+		 height:25px;
+		 margin-left:590px;
+		 margin-top:-25px;
+		 border-color:FAFAFC;
 	 }
-	 .note6{border:2px solid green ;
-		width:5%;
-		height:20px;
-		margin-top:-20px;
-		margin-left:760px;
-		background-color:#BB8FCE ;
+	  .note4 button:hover{
+			background-color:FFC107;
+		 }
+		
+	.note5 button{
+		 border-radius:10px 10px;
+		 width:70px;
+		 height:25px;
+		 margin-left:680px;
+		 margin-top:-25px;
+		 border-color:FAFAFC;
 	 }
+	  .note5 button:hover{
+			background-color:FFC107;
+		 }
+	
+	.note6 button{
+		 border-radius:10px;
+		 width:70px;
+		 height:25px;
+		 margin-left:770px;
+		 margin-top:-25px;
+		 border-color:FAFAFC;
+	 }
+	 
+	  .note6 button:hover{
+			background-color:FFC107;
+		 }
 	  .note7{border:2px;
 		width:27%;
 		height:300px;
 		margin-left:50px;
 		margin-top:50px;
-		background-color:blue;
+		
 	  }
 		
 		.note8{border:2px;
@@ -852,23 +978,20 @@
 		height:300px;
 		margin-left:490px;
 		margin-top:-300px;
-		background-color:blue
 		}
 		
 		
-		.note9{border:2px solid green ;
+		.note9{border:2px  ;
 		width:27%;
 		height:300px;
 		margin-left:920px;
 		margin-top:-300px;
-		background-color:blue;
 		}
 		.note10{border:2px ;
 		width:27%;
 		height:300px;
 		margin-left:50px;
 		margin-top:50px;
-		background-color:#25F1D5;
 		}
 		
 		.note11{border:2px;
@@ -876,7 +999,6 @@
 		height:300px;
 		margin-left:490px;
 		margin-top:-300px;
-		background-color:#25F1D5;
 		}
 		
 		.note12{border:2px;
@@ -884,14 +1006,12 @@
 		height:300px;
 		margin-left:920px;
 		margin-top:-300px;
-		background-color:#25F1D5;
 		}
 		.note13{border:2px;
 		width:27%;
 		height:300px;
 		margin-left:50px;
 		margin-top:50px;
-		background-color:#F321F6;
 		}
 		
 		.note14{border:2px;
@@ -899,7 +1019,6 @@
 		height:300px;
 		margin-left:490px;
 		margin-top:-305px;
-		background-color:#F321F6;
 		}
 		
 		.note15{border:2px;
@@ -907,43 +1026,93 @@
 		height:300px;
 		margin-left:920px;
 		margin-top:-305px;
-		background-color:#F321F6;
 		}
-		.pen{border:2px;
+		.pen{border:2px solid white;
 		width:100%;
 		height:650px;
-		background-color:#AEB6BF;
+		background-color:F7F8FA	;
 		margin-top:115;
+	
 		}
+		
 		.pen1{border:2px;
 		width:15%;
 		height:70px;
-		background-color:#ECE10B ;
+		
 		margin-top:110px;
 		margin-left:600px;
+		}
+		
+		.pen h1{
+			text-align:center;
+			margin-top:-70px;
+			padding-top:20px;
 		}
 		.pen2{border:2px;
 		width:90%;
 		height:100px;
-		background-color:#ECE10B;
+	    color:B1CCE8;
 		margin-top:30px;
 		margin-left:70px;
+		}
+		.pen2 p{
+			text-align:center;
+			margin-top:-30px;
+			padding-top:20px;
 		}
 		
 		.pen3{border:2px;
 		width:20%;
 		height:300px;
-		background-color:#ECE10B;
+	
 		margin-top:30px;
 		margin-left:70px;
 		}
+		.img{
+			width:100%;
+			height:75px;
+			background-color:FFFFFF;
+			border:1px solid white;
+		}
+		.img h4{
+			   
+                 text-align:center;
+				 margin-left:5px;
+				 margin-top:20px;
+		    }
+			
+			.img p{
+				text-align:center;
+			}
+			
+			
 		.pen4{border:2px;
 		width:20%;
 		height:300px;
-		background-color:#ECE10B;
+	
 		margin-top:-300px;
 		margin-left:370px;
 		}
+		
+		
+			
+		.img1{
+			width:100%;
+			height:75px;
+			background-color:FFFFFF;
+			border:1px solid white;
+		}
+		
+		.img1 h4{
+			   
+                 text-align:center;
+				 margin-left:5px;
+				 margin-top:20px;
+		    }
+			
+			.img1 p{
+				text-align:center;
+			}
 		
 		.pen5{border:2px;
 		width:20%;
@@ -953,33 +1122,88 @@
 		margin-left:670px;
 		}
 		
+		
+		.img2{
+			width:100%;
+			height:75px;
+			background-color:FFFFFF;
+			border:1px solid white;
+		}
+		
+		.img2 h4{
+			   
+                 text-align:center;
+				 margin-left:5px;
+				 margin-top:20px;
+		    }
+			
+			.img2 p{
+				text-align:center;
+			}
+		
 		.pen6{border:2px;
 		width:20%;
 		height:300px;
-		background-color:#ECE10B;
+		
 		margin-top:-300px;
 		margin-left:970px;
+			}
+			
+			
+			
+		.img3{
+			width:100%;
+			height:75px;
+			background-color:FFFFFF;
+			border:1px solid white;
+		}
+		
+		.img3 h4{
+			   
+                 text-align:center;
+				 margin-left:5px;
+				 margin-top:20px;
+		    }
+			
+			.img3 p{
+				text-align:center;
 			}
 		
 		.about{border:2px;
 		width:100%;
 		height:800px;
-		background-color:#5E5CE3
+		background-color:#5E5CE3;
+		border:1px solid white;
 		}
-		.about1{border:2px solid green ;
+		.about1{border:1px 
 		width:20%;
 		height:50px;
-		background-color:#31E7ED;
-		margin-left:520px;
+	
+		
 		margin-top:0px;
+        margin-top:40px;
 		}
-		.about2{border:2px solid green ;
+		.about1 h1{
+			text-align:center;
+			margin-top:70px;
+		}
+			
+		.about2{border:2px;
 		width:90%;
 		height:100px;
-		background-color:#31E7ED;
+	
 		margin-left:70px;
 		margin-top:30px;
 		}
+		
+		.about2 p{
+			text-align:center;
+			padding-top:20px;
+			margin-top:-30px;
+			color:AAB3C7;
+		}
+			
+		
 		.about3{border:2px solid green ;
 		width:21%;
 		height:350px;
@@ -987,13 +1211,25 @@
 		margin-left:70px;
 		margin-top:55px;
 		}
+		.about3 h3{
+			text-align:center;
+			margin-top:35px;
+		
+		}
 		.about4{border:2px solid green ;
 		width:21%;
 		height:350px;
-		background-color:#31E7ED;
+		background-color:FFC107;
 		margin-left:375px;
 		margin-top:-355px;
 		}
+		.about4 h3{
+			text-align:center;
+			margin-top:30px;
+		}
+		
+		
+		
 		.about5{border:2px solid green ;
 		width:21%;
 		height:350px;
@@ -1002,6 +1238,10 @@
 		margin-top:-355px;
 		}
 		
+		.about5 h3{
+			text-align:center;
+			margin-top:30px;
+		}
 		.about6{border:2px solid green ;
 		width:21%;
 		height:350px;
@@ -1009,6 +1249,12 @@
 		margin-left:975px;
 		margin-top:-355px;
 		}
+		
+		.about6 h3{
+			text-align:center;
+			margin-top:30px;
+		}
+		
 		.about7{border:2px solid green ;
 		width:21%;
 		height:100px;
@@ -1104,6 +1350,16 @@
 		margin-left:70px;
 		margin-top:360px;
 		}
+		.about18 a{
+			
+			text-decoration:none;
+			padding-top:30px;																												
+		}
+		.about18{
+			text-align:center;
+		}
+			
+			
 		.menu{border:2px solid green ;
 		width:100%;
 		height:830;px;
