@@ -1,0 +1,20 @@
+th {
+	border:1px solid #ffb07c;
+	color:
+}
+tbody td {
+	border:1px solid #ffb07c;
+}
+
+caption {
+	border:1px solid #FEC5E5;
+	background-color:#FEC5E5;
+}
+table {
+	margin:auto;
+	text-align:center;
+}
+table,th,tr,td{
+	 border-collapse:collapse;
+ }
+ 
