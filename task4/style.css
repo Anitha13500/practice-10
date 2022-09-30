@@ -1,0 +1,95 @@
+.container
+{
+	margin:auto;
+	width:85%;
+	height:auto;
+}
+.port1 {
+	width:80%;
+	text-align:center;
+	margin:auto;
+}
+.port1 h1 {
+	text-align:center;
+	font-family:;
+	font-size:30px;
+}
+.port1 p{
+	text-align:center;
+	font-family:;
+	font-size:11px;
+}
+.port1 button{
+	width:7%;
+	height:auto;
+	border:none;
+     border-radius:10px;
+	 font-size:11px;
+}
+.port1 button:hover {
+	color:#82eef3;
+	
+}
+.portfolio1 {
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+	justify-content:space-between;
+	margin-top:30px;
+}
+.portfolio2{
+	width:30%;
+	margin-top:30px;
+}
+.portfolio2 img{
+	width:100%;
+	height:auto;
+}
+.jena{
+	width:100%;
+	height:60vh;
+	background-image:Url('image/back.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+	text-align:center;
+	margin-top:30px;
+}
+.jena::after{
+		content:"";
+		position:absolute;
+		opacity:0.7;
+		background-color:#23305d;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		}
+.jena1{
+	width:80%;
+	margin:auto;
+	position:relative;
+		z-index:1;
+	text-align:center;
+}
+.jena1 img{
+	border-radius:50%;
+	width:10%;
+	margin-top:30px;
+}
+.jena1 h2{
+	color:white;
+	margin-top:0px;
+}
+.jena1 h3{
+	color:gray;
+}	
+.jena1 p {
+	color:white;
+
+}
+.jena1 iconify-icon {
+     color:gray;
+	 font-size:20px;
+	 
+}
