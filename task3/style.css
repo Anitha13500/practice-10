@@ -94,11 +94,298 @@ color:white;
 }
 .about{
 	width:100%;
+	height:90vh;
+	background-image:Url('image/background image1.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+	}
+	.about::after{
+		content:"";
+		position:absolute;
+		opacity:0.7;
+		background-color:black;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		}
+	.about1 {
+		display:flex;
+		position:relative;
+		z-index:1;
+			
+	}
+.about2 {
+	width:50%;
+	height:75vh;
+	margin-top:50px;
+}
+.about2 h3{
+	font-size:25px;
+	color:white;
+}
+.about2 p{
+	font-size:20px;
+	color:white;
+	margin-top:15px;
+}
+.about2 iconify-icon{
+	font-size:20px;
+	color:C49D5A;
+	margin-top:20px;
+}
+.about2 span{
+	color:white;
+	font-size:20px;
+	margin-top:20px;
+}
+.about2 img{
+	width:100%;
+	height:75vh;
+	border:4px solid #4D5355;
+	}
+.restaurant {
+	width:100%;
+	height:67vh;
+	background-color:0C0B09;
+	padding-top:10px;
+	
+}
+.res h5{
+	font-size:15px;
+	margin-top:30px;
+	color:gray;
+	
+}	
+.res h5::after{
+	content:"";
+	height:1px;
+	width:10%;
+	margin-bottom:5px;
+	margin-left:15px;
+	background-color:gray;
+	display:inline-block;
+}
+.res h1 {
+	font-size:30px;
+	color:CDA45E;
+	
+}
+.lorem {
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:space-between;
+}
+.sum {
+	width:30%;
+	height:37vh;
+	background-color:1A1814;
+	border:1px solid black;
+	margin-top:20px;
+}
+.sum:hover {
+	background-color:CDA45E;
+}
+.sum h5{
+	color:CDA45E;
+	font-size:25px;
+	margin-top:50px;
+	margin-left:20px;
+	
+}
+.sum h5:hover{
+	color:white;
+}
+
+.sum h1 {
+	font-size:25px;
+	margin-top:20px;
+	margin-left:20px;
+	color:white;
+}
+.sum p {
+	font-size:20px;
+	margin-top:20px;
+	margin-left:20px;
+	color:595855;
+}
+.sum p:hover{
+	color:white;
+}
+.menu {
+	width:100%;
+	height:105vh;
+	background-color:1A1814;
+	padding-top:10px;
+}
+.tastymenu h5 {
+	font-size:15px;
+	color:878683;
+	margin-top:30px;
+}
+.tastymenu h5::after{
+	content:"";
+	height:1px;
+	width:10%;
+	margin-bottom:5px;
+	margin-left:15px;
+	background-color:gray;
+	display:inline-block;
+}
+.tastymenu h1{
+    font-size:31px;
+	color:CDA45E;
+	margin-top:10px;
+}
+.menu1 {
+	width:25%;
+	margin:auto;
+	margin-top:50px;
+	
+}
+.menu1 a {
+	text-decoration:none;
+	color:white;
+	font-size:17px;
+	
+}
+.menu a:hover{
+	color:CDA45E;
+}
+.menu1 ul {
+	list-style:none;
+	justify-content:space-between;
+	display:flex;
+}	
+.starters {
+	margin-top:30px;
+	display:flex;
+	justify-content:space-between;
+}
+.starter {
+	display:flex;
+	margin-top:10px;
+}
+.starters1 {
+	width:50%;
+	}
+.lobster {
+	width:15%;
+}
+.lobster img{
+	width:70%;
+	border-radius:50%;
+	border:3px solid gray;
+	padding:3px;
+}
+.lobster1 {
+	width:70%;
+}
+.lobster1 a{
+	color:white;
+	width:70%;
+	text-decoration:none;
+	font-size:20px;
+}
+.lobster1 a::after{
+	content:".........................................";
+	margin-top:10px;
+	color:gray;
+	margin-left:15px;
+	display:inline-block;
+}
+.lobster1 p {
+	color:gray;
+}
+.lobster1 span{
+	margin-left:10px;
+	color:#cda45e;
+}
+	
+.specials {
+	width:100%;
+	height:62%;
+	background-color:0C0B09;
+	padding-top:10px;
+}
+.special1 {
+	width:100%;
+	border:1px solid black;
+	display:flex;
+	margin-top:10px;
+	
+}	
+.special2 {
+	width:20%;
+	background-color:green;
+	border:1px solid black;
+	
+}
+.special2 a{
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+.special2 a:hover{
+	color:#CDA45E;
+}
+.special2 ul li{
+list-style:none;
+margin-top:20px;
+}
+.special3	{
+	width:50%;
+	background-color:green;
+	border:1px solid black;
+}
+.special3 h1{
+	font-size:27px;
+	color:white;
+	margin-top:10px;
+}
+.special3 p{
+	font-size:20px;
+	color:#aaaaaa;
+	margin-top:20px;
+}
+.special4 {
+	width:30%;
+	background-color:green;
+	border:1px solid black;
+}
+.special4 img {
+	width:75%;
+}
+.events {
+	width:100%;
 	height:100vh;
-	background-color:yellow;
+	background-image:url('image/events.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+}
+.events::after{
+	content:"";
+	position:absolute;
+	opacity:0.7;
+	background-color:black;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+}
+.events1 {
+	display:flex;
+	position:relative;
+	z-index:1;
+}
+.events2 {
+	width:50%;
+	height:95vh;
+	background-color:red;
 	border:1px solid black;
 }
 	
 
-	
-							
