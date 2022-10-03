@@ -1,0 +1,83 @@
+* {
+
+	width:99%;
+	height:auto;
+}
+
+#anitha{
+	color:yellow;
+	font-size:20px;
+	
+}
+
+.green {
+	background-color:green;
+	font-size:20px;
+	color:yellow;
+}
+.yellow p {
+	background-color:green;
+	color:yellow;
+}
+.child >p{
+	background-color:green;
+	color:yellow;
+}
+div +h4{
+	background-color:red;
+	font-size:20px;
+}
+.general ~h6{
+	background-color:pink;
+	font-size:20px;
+}
+.pseudo a:visited {
+	color:yellow;
+}
+h5:hover {
+	color:blue;
+	font-size:20px;
+}
+.pseudo a:active{
+	background-color:red;
+}
+.first p::first-line{
+	background-color:yellow;
+}
+.flet p::first-letter{
+	
+	color:red;
+}
+.flet h5::after{
+	content:" pushpam";
+}
+.flet h3 ::before {
+	content:"B.";
+}
+.attri a[class]{
+	background-color:yellow;
+}
+.sec a[class=_select]{
+	background-color:yellow;
+}
+.val img{
+	width:20%;
+	height:30vh;
+}
+.val img[class~=flower] {
+	border:2px solid red;
+}
+.valu p[class|=value] {
+	background-color:blue;
+}
+.complect h2[class^=top] {
+	color:pink;
+}
+.camp h3[class$=nature] {
+		color:red;
+}
+.as h3[class*=s] {
+	background-color:yellow;
+}
+
+		
