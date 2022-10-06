@@ -13,6 +13,13 @@ box-sizing:border-size;
 	background-image:Url('image/background image.jpg');
 	background-size:cover;
 	background-attachment:fixed;
+	padding-top:5px;	
+	
+}
+.icon	{
+	font-size:20px;
+	width:35%;
+		
 	
 }
 .head-section{
@@ -28,6 +35,11 @@ box-sizing:border-size;
 	font-size:25px;
 	color:white;
 	cursor:pointer;
+	
+}
+.en {
+	float:right;
+	font-size:20px;
 	
 }
 .navlink ul{
@@ -61,11 +73,13 @@ box-sizing:border-size;
 	border:1px solid black;
 	justify-content:space-between;
 	padding:25px;
+	margin-top:20px;
 	
 }
 
 .head {
 	margin-top:190px;
+	width:50%;
 }
 .head h1{
 font-size:55px;
@@ -78,9 +92,33 @@ font-size:55px;
     color:E2E0DE;
 	font-size:25px;
 }
+.redd {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+.rel{
+	width:45%;
+	margin-top:190px;
+	text-align:center;
+	
+}
+.rel iconify-icon{
+	font-size:50px;
+	margin:auto;
+	
+	color:white;
+	padding:5px;
+	border-radius:50%;
+	border:5px solid #CDA45E;
+	background-color:#CDA45E;
+	margin-top:35px;
+	cursor:pointer
+	
+}
 .head1 a{
 background-color:none;
-border:1px solid #C8A05C;
+border:3px solid #C8A05C;
 border-radius:15px;
 padding:10px;
 text-decoration:none;	
@@ -145,6 +183,7 @@ color:white;
 	height:75vh;
 	border:4px solid #4D5355;
 	}
+	
 .restaurant {
 	width:100%;
 	height:67vh;
@@ -235,7 +274,7 @@ color:white;
 	display:inline-block;
 }
 .tastymenu h1{
-    font-size:31px;
+    font-size:41px;
 	color:CDA45E;
 	margin-top:10px;
 }
@@ -306,7 +345,7 @@ color:white;
 	
 .specials {
 	width:100%;
-	height:62%;
+	height:67%;
 	background-color:0C0B09;
 	padding-top:10px;
 }
@@ -315,12 +354,12 @@ color:white;
 	border:1px solid black;
 	display:flex;
 	margin-top:10px;
+	justify-content:space-between;
 	
 }	
 .special2 {
 	width:20%;
-	background-color:green;
-	border:1px solid black;
+	border-right:2px solid #CDA45E;
 	
 }
 .special2 a{
@@ -333,11 +372,10 @@ color:white;
 }
 .special2 ul li{
 list-style:none;
-margin-top:20px;
+padding:15px;
 }
 .special3	{
-	width:50%;
-	background-color:green;
+	width:47%;
 	border:1px solid black;
 }
 .special3 h1{
@@ -352,15 +390,15 @@ margin-top:20px;
 }
 .special4 {
 	width:30%;
-	background-color:green;
 	border:1px solid black;
 }
 .special4 img {
 	width:75%;
+	margin-left:35px;
 }
 .events {
 	width:100%;
-	height:85vh;
+	height:91vh;
 	background-image:url('image/events.jpg');
 	background-size:cover;
 	background-attachment:fixed;
@@ -430,6 +468,36 @@ margin-left:20px
 	list-style:none;
 	margin-left:20px
 }
+.book {
+	width:100%;
+	height:100vh;
+	background-color:yellow;
+	padding-top:10px;
+}
+.table1 input  {
+	width:30%;
+	height:7vh;
+	margin-top:25px;
+	justify-content:space-between
+
+}
+.table1 textarea{
+	width:100%;
+	height:30vh;
+	margin-top:30px;
+}
+.table1 a{
+	text-decoration:none;
+}
+.table1 button {
+	width:10%;
+	padding:1vh;
+	border:1px solid balck;
+	background-color:green;
+	border-radius:30%;
+}
+	
+	
 
 
 	
