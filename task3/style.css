@@ -401,7 +401,7 @@ padding:15px;
 	height:91vh;
 	background-image:url('image/events.jpg');
 	background-size:cover;
-	background-attachment:fixed;
+	/* background-attachment:fixed; */
 	position:relative;
 	padding-top:10px;
 	
@@ -422,7 +422,7 @@ padding:15px;
 }
 .events1 {
 	display:flex;
-	position:relative;		
+	/* position:relative;		 */
 	margin-top:10px;
 	
 }
@@ -470,32 +470,169 @@ margin-left:20px
 }
 .book {
 	width:100%;
-	height:100vh;
-	background-color:yellow;
+	height:85vh;
+	background-color:#0C0B09;
 	padding-top:10px;
 }
-.table1 input  {
-	width:30%;
-	height:7vh;
-	margin-top:25px;
-	justify-content:space-between
-
-}
-.table1 textarea{
+.table11{
 	width:100%;
-	height:30vh;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-top:20px;
+}
+
+.mail{
+	width:30%;
+	padding-top:30px;
+	
+	
+}
+.mail input{
+	width:100%;
+	background-color:#0c0b09;
+	border-color:grey;
+    color: white;
+	font-size:18px;
+	padding:10px;
+}
+.butt1{
+	margin:auto;
+	margin-top:35px;
+	
+}
+
+.butt1 a{
+	text-decoration:none;
+	border-radius:30px;
+	padding:15px;
+	color:white;
+	background-color:#D3AF71;
+}
+
+.message {
+	width:100%;
 	margin-top:30px;
 }
-.table1 a{
-	text-decoration:none;
+.message textarea{
+	width:100%;
+	height:20vh;
+	background:#0c0b09;
+	border-color:grey;
+    color: white;
+	font-size:18px;
 }
-.table1 button {
-	width:10%;
-	padding:1vh;
-	border:1px solid balck;
+.testimonial {
+	width:100%;
+	height:75vh;
+	background-color:#1A1814;
+	padding-top:5px;
+	
+}
+.aboutus1 {	
+	width:100%;
+	
+	margin-top:30px;
+	display:flex;
+	justify-content:space-between;
+	
+	
+}
+.aboutus12{
+	width:31%;
+	background-color:#26231D;
+	height:30vh;
+	line-height:2rem;	
+	
+	
+}
+.aboutus12 P{
+	font-size:23px;
+	color:white;
+	
+}
+.aboutus12 iconify-icon{
+	font-size:23px;
+	color:#CAAA70;
+}	
+.aboutus121 img{
+	width:20%;
+	border:1px solid #484643;
+	border-radius:50%;
+	margin-left:20px;
+	margin-top:15px;
+	padding:7px;
+	background-color:#484643;
+}
+.aboutus121 h3{
+	color:white;
+}
+.aboutus121 h5{
+	color:#7A7977;
+	font-size:17px;
+}
+.gallery {
+	width:100%;
+	background-color:#0c0b09;
+	padding-top:7px;
+}
+.photo1{
+	width:100%;
+	margin-top:40px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.photo{
+	width:24.9%;
+}
+.photo img{
+	width:100%;
+	border:2px solid #454035;
+	height:auto;
+}
+.chefs{
+	width:100%;
+	background-color:#0C0B09;
+	height:80vh;
+	padding-top:7px;
+	
+}
+.chefs1 {
+	width:100%;
+	border:1px solid black;
+	margin-top:30px;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.chefs1 img{
+	width:30%;
+	border:1px solid black;
+	
+	
+}
+.contant{
+	width:100%;
+	height:70vh;
 	background-color:green;
-	border-radius:30%;
+	padding-top:10px;
+	
 }
+.contant iframe{
+	width:99.50%;
+	height:45vh;
+	margin-top:20px;
+}
+.location{
+	width:100%;
+	height:50vh;
+	background-color:yellow;
+	
+}	
+
+
+	
 	
 	
 
