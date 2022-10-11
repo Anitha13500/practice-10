@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+}
+.header{
+	width:100%;
+
+}
+	
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header1{
+	width%:100%;
+	justify-content:space-between;
+	display:flex;					
+}
+.head1{
+	width:30%;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.head{
+	width:47%;
+	
+}
+.head iconify-icon{
+	font-size:20px;
+	color:#428BCA;
+}
+.head a{
+	text-decoration:none;
+	color:black;	
+	font-size:15px;	
+}
+.face{
+	width:15%;
+	display:flex;
+	justify-content:space-between;
+}
+.face iconify-icon{
+	font-size:20px;
+	color:gray;
+	cursor:pointer;
+}
+hr{
+margin-top:20px;
+}	
+.content{
+	width:100%;
+	display:flex;
+	justify-content:space-between;	
+}
+.mamba{
+margin-top:20px;
+}
+.mamba h1{
+	font-size:25px;
+	color:#1C5CAF;
+}
+.logo{
+	width:55%;
+margin-top:20px;
+
+}
+.logo ul{
+	display:flex;
+justify-content:space-between;
+}
+	
+.logo ul li{
+	list-style:none;
+		
+}
+.logo a{
+	text-decoration:none;
+	font-size:20px;
+	color:gray;
+	}
+	.lorem{
+		background-image:url("slide-1.jpg");
+		width:100%;
+		height:40rem;
+		background-size:cover;
+		background-attachment:fixed
+		
+	}
+.lorem	
+	
+	
+		
