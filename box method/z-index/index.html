@@ -1,0 +1,109 @@
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">  
+<title></title>
+	<style>
+		
+		.index{
+		width:30%;
+		height:30vh;
+		border:1px solid black;
+		background-color:red;
+		position:absolute;
+		z-index:0;
+		
+		}
+		.go{
+		width:35%;
+		height:35vh;
+		border:1px solid black;
+		background-color:green;
+		position:relative;
+		z-index:1;
+		margin-left:2rem;
+		}
+		
+		.visible{
+		width:17%;
+		height:17vh;
+		border:1px solid black;
+		background-color:yellow;
+		overflow:visible;
+		
+	
+		}
+		.hidden{
+		width:17%;
+		height:17vh;
+		border:1px solid black;
+		background-color:pink;
+		overflow:hidden;
+		margin-top:7rem;
+	}
+		.scroll{
+		width:100px;
+		height:190px;
+		border:1px solid black;
+		background-color:orange;
+		overflow:scroll;
+		margin-top:2rem;
+	
+		}
+		.auto{
+		width:17%;
+		height:17vh;
+		border:1px solid black;
+		background-color:red;
+		overflow:auto;
+		margin-top:2rem;
+	
+		}
+	</style>
+</head>
+<body>
+	<h1>z-index</h1>
+	
+	<div class="index">
+	</div>
+	<div class="go">
+	</div>
+	<h1>1.overflow</h1>
+	<h3>visible</h3>
+	<h3>hidden</h3>
+	<h3>scroll</h3>
+	<h3>auto</h3>
+	<div class="visible">
+		<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas </p>
+	</div>
+	<div class="hidden">
+		<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas </p>
+	</div>
+	<div class="scroll">
+		<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas </p>
+	</div>
+	
+	<div class="auto">
+		<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas </p>
+	</div>
+	
+	<script>
+		//1.function
+	var a=30;
+	var b=15;
+	function num(c,d){
+	var i=c+d
+	var j=c-d
+	var k=c*d
+	var l=c%d
+	var m=c/d
+	return[i,j,k,l,m]
+	}
+	var v=sum(a,b)
+	console.log(v)
+	
+	</script>
+</body>
+</html>
